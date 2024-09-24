@@ -22,6 +22,7 @@ To download the RoboRIO precompiled binaries, use:
 ```
 pipenv run sync
 ```
+You may want to configure your editor (VSCode) to use the virtual environment that pipenv sets up, which can be done by opening the command palette and entering 'Python: Select Interpreter' and choosing the virtual environment corresponding to the output of `pipenv --venv`
 
 #### Note:
-Please do not edit `Pipfile` or `Pipfile.lock`, as these files are managed by pipenv and can break otherwise.
+Please do not edit `Pipfile.lock`, as this file is managed by pipenv and can break otherwise.

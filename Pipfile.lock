@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "68f6251c02e27e34e43bfd42995c76fb3f00040da2ac54b443ea0e4d5d6cc257"
+            "sha256": "4bfd667006eca54c18926242cd880d15197730730ab3aec1d9b4ac4e880f2788"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -302,6 +302,15 @@
             "index": "pypi",
             "version": "==0.1.1"
         },
+        "revlib": {
+            "hashes": [
+                "sha256:10659986f1c6164f8412b6d282b3df55f3d0bc74c481e8497f24460f6ffef219",
+                "sha256:9cbbeb8aa720f79e9d68e41012d734beddb9d7cd6740c43e88795b5d4be235ea"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==1.7.2"
+        },
         "robotpy": {
             "hashes": [
                 "sha256:7557934f08e149aa4af8cc67a2bc14ef70408e21833c6075222aaf040d2e9117",
@@ -368,6 +377,29 @@
             ],
             "markers": "platform_machine != 'roborio' and platform_machine != 'armv7l' and platform_machine != 'aarch64'",
             "version": "==2024.2.2"
+        },
+        "robotpy-rev": {
+            "hashes": [
+                "sha256:03db134b567ab128b28d62f2e62a3e8042b158bdd792e02173e4a5f7fb88a6f0",
+                "sha256:2763ba59aa1e4062a2e265353461317645836bfbe36ac5f3a965a9e70aba4dd0",
+                "sha256:2bd6d0a71d5737915ba10eccd3fede62d61c0d9ed65e6c8baa84aed1d96b6550",
+                "sha256:5b9921c141c6957dce33161771b3a6e07ca4e3d4983865881690b148e66440f2",
+                "sha256:7323042f94a68556b5dc5c9a2fc1a74948d10ddddfabbf01d74f1f99d9c4e7d9",
+                "sha256:82a5f9387c5764d88a5cd504c74cb5216357646508601c7408568f097abbb89d",
+                "sha256:87b023e1f9be8b3ea53151a59ebbad9d07136bcb76aa4ecd1bebb5044e57ec76",
+                "sha256:890c894172d13175c0bf3a882588a3c8da972cfc04917c8ee6a40f07497368c6",
+                "sha256:8dddb16f92055755841c2b1c8e063364f3606daf4d34b1e92dff2903f0efc0f6",
+                "sha256:91cb9d43295e85ce2f5e554e631c150cc0d14a75922cf3c5936933df9f90c15e",
+                "sha256:9d09db7ecaae82383e45ccbba82db33ab0a28afd66eb47447a3c8fbe1dc362b5",
+                "sha256:b9e261c96a6fe10d93b623bccde5dbefb1dfb53b00e2bfed29591601e4d2ed30",
+                "sha256:c44b2abbd2092056b24753f1f46d229c51d2879046f1782a02bb00d51275218b",
+                "sha256:d51490f0b4a07645d2edea72204a8a2bad2e5ec88705d0615b0de01eda28926b",
+                "sha256:dc00f4f2b3f5c45fed7efe9869dc2f4072afb6d26c6286eaa98786a34fa0b377",
+                "sha256:f88099e6beef729f0db737cd4163b3458fde64133788c0e7b4e2ae03599bcb82"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==2024.2.4"
         },
         "robotpy-wpilib-utilities": {
             "hashes": [
