@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5946af418d8aa99003e1f6c08adcf494eda86f1cc370b9ca1265fb8f755497c2"
+            "sha256": "68f6251c02e27e34e43bfd42995c76fb3f00040da2ac54b443ea0e4d5d6cc257"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -295,14 +295,12 @@
             "markers": "python_full_version >= '3.6.1' and python_full_version < '4.0.0'",
             "version": "==2.1.2"
         },
-        "revlib": {
+        "rev": {
             "hashes": [
-                "sha256:10659986f1c6164f8412b6d282b3df55f3d0bc74c481e8497f24460f6ffef219",
-                "sha256:9cbbeb8aa720f79e9d68e41012d734beddb9d7cd6740c43e88795b5d4be235ea"
+                "sha256:c0b65af812b59fc2ef9fb8530ee045d9fec78c2937ec4de41e53a64e4684cde8"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==1.7.2"
+            "version": "==0.1.1"
         },
         "robotpy": {
             "hashes": [

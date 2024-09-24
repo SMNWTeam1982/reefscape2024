@@ -1,12 +1,12 @@
 [[source]]
-url = "https://github.com/SMNWTeam1982/reefscape2025"
-verify_ssl = false
-name = "reefscape2025"
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
 
 [packages]
 robotpy = "*"
 wpilib = "*"
-revlib = "*"
+rev = "*"
 
 [dev-packages]
 
