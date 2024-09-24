@@ -1,0 +1,6 @@
+{
+	"recommendations": [
+		"wpilibsuite.vscode-wpilib",
+		"ms-python.vscode-pylance"
+	]
+}

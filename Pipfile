@@ -1,0 +1,18 @@
+[[source]]
+url = "https://github.com/SMNWTeam1982/reefscape2025"
+verify_ssl = false
+name = "reefscape2025"
+
+[packages]
+robotpy = "*"
+wpilib = "*"
+revlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+sync = "python -m robotpy sync"
+deploy = "python -m robotpy deploy"
