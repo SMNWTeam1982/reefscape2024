@@ -1,11 +1,11 @@
 # TODO: insert robot code here
 import wpilib
-import rev
+import rev._rev as rev
 
 
 class MyRobot(wpilib.TimedRobot):
     def robotInit(self):
-        self.leftDrive = rev._rev.CANSparkMax(2, rev._rev.CANSparkLowLevel.MotorType.kBrushless)
+        self.leftDrive = rev.CANSparkMax(1, rev.CANSparkLowLevel.MotorType.kBrushless)
         self.controller = wpilib.XboxController(0)
         self.timer = wpilib.Timer()
     
@@ -14,7 +14,7 @@ class MyRobot(wpilib.TimedRobot):
 
     def autonomousPeriodic(self):
         if self.timer.get() < 2.0:
-            self.leftDrive.set(0.05)
+            self.leftDrive.set(0.5)
         else:
             self.leftDrive.stopMotor()
     

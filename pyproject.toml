@@ -30,3 +30,16 @@ robotpy_extras = [
 
 # Other pip packages to install
 requires = []
+
+[project]
+name = "reefscape2025"
+version = "0.0.1"
+description = "Cougar Robotics 1982 2025 FRC Code"
+authors = [
+    {name = "SMNW 1982", email = "cougarrobotics1982@gmail.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "SEE LICENSE FILE"}
+
